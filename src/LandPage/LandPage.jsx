@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from './Navbar/Navbar';
+import Navbar from '../Navbar/Navbar';
 import './LandPage.css'
 
 export default function LandPage() {
