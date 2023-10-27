@@ -25,7 +25,7 @@ Sidebar navigation
   width: 0;
   top: 60px;
   overflow: hidden;
-  max-width: 160px;
+  max-width: 150px;
   z-index: 9;
   font-size: 18px;
   box-shadow: 0 10px 15px -3px rgb(46 41 51 / 8%), 0 4px 6px -2px rgb(71 63 79 / 16%);
