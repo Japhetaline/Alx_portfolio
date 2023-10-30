@@ -11,15 +11,15 @@ export default function LandPage() {
   };
 
   const handleLearnMore = () => {
-    navigate('/faq'); // Navigate to the '/faq' page
+    navigate('/journal'); // Navigate to the '/faq' page
   };
   return (
     <>
     <Navbar/>
 
         <p className='content-text'>
-        The page should contain sections/headings for: Welcome to Journaly, with some text under; How Journaly works, with some text under; and How to use Journaly, with some text under
-After the above sections, there should be a Get Started Now button that leads to the Login/Signup page
+        A journal is a record of events, ideas, or reflections kept regularly for private use.
+        It is a personal document that can be used to track your progress towards goals, document your experiences, or simply reflect on your thoughts and feelings.
       </p>
       <div className="content-btn">
       <button className="get-started-button" onClick={handleGetStarted}>

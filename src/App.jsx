@@ -5,7 +5,8 @@ import About from './AboutPage/About'
 import Login from './Login/Login'; 
 import FAQ from './FaqPage/faq';
 import RESET from './resetpasswordPage/reset';
-import SIGNUP from './Signup/signup'
+import SIGNUP from './Signup/signup';
+import JOURNAL from './JournalPage/JournalPage'
 
 export default function App() {
   return (
@@ -17,6 +18,7 @@ export default function App() {
       <Route path="/faq" element={<FAQ />} />
       <Route path="/reset" element={<RESET />} />
       <Route path="/signup" element={<SIGNUP />} />
+      <Route path="/journal" element={<JOURNAL />} />
       {/* Define other routes here */}
     </Routes>
   </BrowserRouter>
